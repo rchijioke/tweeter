@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+
     
 
     <!-- External Fonts -->
@@ -53,5 +55,16 @@
     <!-- Page-specific (main) content here -->
     <main class="container"></main>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam iure, adipisci eos consectetur enim, porro deleniti, repellat nemo animi praesentium id vitae ad sit vel voluptatum sunt? Veniam, quae.</p>
+    <section class="new-tweet">
+      <h2 class="compose-tweet">Compose Tweet</h2>
+      <form action="/tweets" method="post" class="create-tweet">
+        <label for="tweet-text">What are you humming about?</label>       
+        <textarea name="text" id="tweet-text"></textarea>
+        <div>
+          <button type="submit" class="tweet-button">Tweet </button>
+          <output name="counter" class="counter" for="tweet-text">140</output>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
