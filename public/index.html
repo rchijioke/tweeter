@@ -1,72 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta Information -->
-    <title>Tweeter - Home Page</title>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
+<head>
+  <!-- Meta Information -->
+  <title>Tweeter - Home Page</title>
 
-    <!-- Font-Awesome Library --> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    type="text/css" />
 
-    <!-- App CSS -->
-    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
-    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
-    
+  <!-- Font-Awesome Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
+  <!-- App CSS -->
+  <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/tweets-container.css" type="text/css" />
 
-    <!-- External Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@1,300;1,600&display=swap" rel="stylesheet">
-    
-    <!-- External JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <!-- App JS -->
-    <script type="text/javascript" src="/scripts/client.js"></script>
-    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
-  </head>
 
-  <body>
-    <!-- Top nav bar (fixed) -->
-    <nav>
-      <span>tweeter</span>
-      <div class="new-tweet">
-        <a href="#" class="write-tweet">
-          Write a new tweet 
-        </a>
-        <i class="fas fa-angle-double-down"></i>
-      </div>
-    </nav>
+  <!-- External Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@1,300;1,600&display=swap"
+    rel="stylesheet">
 
-  <header>
+  <!-- External JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/client.js"></script>
+  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+</head>
+
+<body>
+  <!-- Top nav bar (fixed) -->
+  <nav>
+    <span>tweeter</span>
+    <div class="new-tweet">
+      <a href="#" class="write-tweet">
+        Write a new tweet
+      </a>
+      <i class="fas fa-angle-double-down"></i>
+    </div>
+  </nav>
+
+  <header class="header">
     <div>
-        <img src="/images/profile-hex.png"> 
+      <img src="/images/profile-hex.png">
     </div>
     <br>
     <div>
-        <h2> New Name</h2>
+      <h2> New Name</h2>
     </div>
-</header>  
+  </header>
 
-    <!-- Page-specific (main) content here -->
-    <main class="container"></main>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam iure, adipisci eos consectetur enim, porro deleniti, repellat nemo animi praesentium id vitae ad sit vel voluptatum sunt? Veniam, quae.</p>
-    <section class="new-tweet">
-      <h2 class="compose-tweet">Compose Tweet</h2>
-      <form action="/tweets" method="post" class="create-tweet">
-        <label for="tweet-text">What are you humming about?</label>       
-        <textarea name="text" id="tweet-text"></textarea>
-        <div>
-          <button type="submit" class="tweet-button">Tweet </button>
-          <output name="counter" class="counter" for="tweet-text">140</output>
+  <!-- Page-specific (main) content here -->
+  <main class="container"></main>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam iure, adipisci eos consectetur enim, porro
+    deleniti, repellat nemo animi praesentium id vitae ad sit vel voluptatum sunt? Veniam, quae.</p>
+  <section class="new-tweet">
+    <h2 class="compose-tweet">Compose Tweet</h2>
+    <form action="/tweets" method="post" class="create-tweet">
+      <label for="tweet-text">What are you humming about?</label>
+      <textarea name="text" id="tweet-text"></textarea>
+      <div>
+        <button type="submit" class="tweet-button">Tweet </button>
+        <output name="counter" class="counter" for="tweet-text">140</output>
+      </div>
+    </form>
+  </section>
+  <section class="tweets-container">
+    <article class="tweet">
+      <header>
+        <div class="avatar-container">
+         <img class="avatar" src="https://i.imgur.com/73hZDYK.png" alt="">
+          <h4> UserName</h4>
         </div>
-      </form>
-    </section>
-  </body>
+          <p> @handle</p>
+      </header>
+      <textarea name="text" id="tweet-text"></textarea>
+      <footer>
+        <time datetime="2023-04-25T12:00:00">2 hours ago</time>
+        <div class="icons">
+          <i class="fa-solid fa-flag"></i>
+          <i class="fa-solid fa-retweet"></i>
+          <i class="fa-solid fa-heart"></i>
+          </div>
+      </footer>
+    </article>
+  </section>
+</body>
+
 </html>

@@ -1,0 +1,42 @@
+
+article.tweet {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+article.tweet header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.avatar-container{
+  display: flex;
+
+}
+
+.avatar{
+  transform: scale(0.5);
+}
+
+article.tweet .icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+article.tweet .icons i {
+  margin: 0 5px;
+  cursor: pointer; 
+}
+
+article.tweet .icons i:hover {
+  color: #ffad1f;
+  transform: scale(1.2);
+}
+
+article.tweet footer{
+  display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
