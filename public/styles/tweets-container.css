@@ -4,7 +4,17 @@ article.tweet {
   flex-direction: column;
   margin: 10px;
   border-bottom: 1px solid #ccc;
+  border: 3px solid #1a1515;
+  padding: 10px;
+ 
 }
+
+article.tweet:hover {
+  box-shadow: 10px 5px 10px blue;
+}
+/* article.tweet ~ .icons:hover {
+  box-shadow: 0 0 10px blue;
+} */
 
 article.tweet header {
   display: flex;
@@ -23,6 +33,7 @@ article.tweet header {
 article.tweet .icons {
   display: flex;
   justify-content: flex-end;
+  
 }
 
 article.tweet .icons i {
