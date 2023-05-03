@@ -16,3 +16,23 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Documentation
+
+`index.html`: description
+this is an html file for the home page of a twitter-like application. It has multiple links to external CSS and JavaScript files. It has a fixed top navigation bar with a button and a down arrow, a header section, a main content section containing a form for creating new tweets and a section for displayint existing tweets.
+
+`header.css`: description
+the header.css file was used to style the header section of a webpage,including its height, width, background color and image, and positioning/orientation.
+
+`layout.css`: description
+ the layout.css file sets up global layout properties such as box-sizing, font, and background colors for various elements including the body, main and navigation bar, with specific adjustments made for tablet breakpoints.
+
+ `nav.css`: description 
+The nav.css file styles a fixed navigation bar with a blue background, white text, and a logo or text in a font called "Bungee".
+
+
+
+
+
+

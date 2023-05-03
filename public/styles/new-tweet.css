@@ -20,6 +20,7 @@
   background-color: #f4f1ec;
   outline: none;
 
+
 }
 
 #error-messages {
@@ -32,7 +33,7 @@
 }
 
 .create-tweet{
-   margin: 0px 15px 0px 15px; 
+   margin: 95px 50px 20px 15px; 
 }
 .tweet-button{
   color: #FFFFFF;
@@ -44,5 +45,33 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.write-tweet {
+  margin-bottom: 10px;
+}
+
+.fa-angle-double-down {
+  animation-name: moveDown;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
