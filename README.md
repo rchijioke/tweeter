@@ -37,6 +37,14 @@ The new-tweet.css file contains styles for a tweet composing interface including
 `tweets-container.css`: description
  the css file styles a tweet element with a flex layout, a border, padding, and hover effects, as well as icons with hover effects and a footer.
 
+## Screenshots
+
+!["first screenshot of tweeter hompage"](https://github.com/rchijioke/tweeter/blob/master/docs/tweet-box.png.png?raw=true)
+
+!["second screenshot of tweeter hompage"](https://github.com/rchijioke/tweeter/blob/master/docs/tweet-box1.png.png?raw=true)
+
+!["third screenshot of tweeter hompage"](https://github.com/rchijioke/tweeter/blob/master/docs/tweet-box2.png.png?raw=true)
+
 
 
 
