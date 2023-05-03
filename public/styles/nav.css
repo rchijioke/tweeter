@@ -8,17 +8,12 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #4056A1;
-  color: #FFFFFF;
-  font-family: 'Bungee', sans-serif;
+  background-color: #4056a1;
+  color: #ffffff;
+  font-family: "Bungee", sans-serif;
   padding: 0 1.5em;
 }
 
 nav span {
   font-family: Bungee;
 }
-
-
-
-
-

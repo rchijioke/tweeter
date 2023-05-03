@@ -1,19 +1,13 @@
-
-
-.counter{
-
+.counter {
   float: right;
 }
 
-#tweet-text{
-
+#tweet-text {
   width: 100%;
   border: none;
   border-bottom: 3px solid black;
   background-color: #f4f1ec;
   outline: none;
-
-
 }
 
 #error-messages {
@@ -25,15 +19,15 @@
   display: none;
 }
 
-.create-tweet{
-   margin: 95px 50px 20px 15px; 
+.create-tweet {
+  margin: 95px 50px 20px 15px;
 }
-.tweet-button{
-  color: #FFFFFF;
-  background-color: #4056A1;  
+.tweet-button {
+  color: #ffffff;
+  background-color: #4056a1;
 }
 
-.compose-tweet{
+.compose-tweet {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,4 +61,3 @@
     transform: translateY(0);
   }
 }
-
