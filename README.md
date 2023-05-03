@@ -31,6 +31,12 @@ the header.css file was used to style the header section of a webpage,including 
  `nav.css`: description 
 The nav.css file styles a fixed navigation bar with a blue background, white text, and a logo or text in a font called "Bungee".
 
+`new-tweet.css`: description
+The new-tweet.css file contains styles for a tweet composing interface including input fields, error messages, and animations for the "new tweet" button.
+
+`tweets-container.css`: description
+ the css file styles a tweet element with a flex layout, a border, padding, and hover effects, as well as icons with hover effects and a footer.
+
 
 
 
