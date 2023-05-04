@@ -2,6 +2,10 @@
   float: right;
 }
 
+.counter.exceeded {
+  color: red;
+}
+
 #tweet-text {
   width: 100%;
   border: none;

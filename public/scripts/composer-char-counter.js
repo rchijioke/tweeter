@@ -6,10 +6,10 @@ $(document).ready(function() {
  const remChar = 140 - charLength
  $('.counter').text(remChar)
  if(remChar < 0){
-  $('.counter').css('color','red')
+  $('.counter').addClass('exceeded')
  }
  else{
-  $('.counter').css('color','')
+  $('.counter').removeClass('exceeded')
  }
   
 })
